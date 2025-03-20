@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonsterTradingCardsGame.BLL", "MonsterTradingCardsGame.BLL\MonsterTradingCardsGame.BLL.csproj", "{25417475-AC73-4915-8777-E0E6DFD638AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonsterTradingCardsGame.DAL", "MonsterTradingCardsGame.DAL\MonsterTradingCardsGame.DAL.csproj", "{399478FA-2050-4EA7-877A-46F898AF0AB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonsterTradingCardsGame.API", "MonsterTradingCardsGame.API\MonsterTradingCardsGame.API.csproj", "{36F546C7-56B5-45B4-B545-F8DC14B720FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonsterTradingCardsGame.Tests", "MonsterTradingCardsGame.Tests\MonsterTradingCardsGame.Tests.csproj", "{3CF0750F-DD17-4473-A97B-26663F047E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterTradingCardsGame.DTOs", "MonsterTradingCardsGame.DTOs\MonsterTradingCardsGame.DTOs.csproj", "{47A9CD3A-22A5-4323-9695-E368DE155AE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25417475-AC73-4915-8777-E0E6DFD638AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25417475-AC73-4915-8777-E0E6DFD638AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25417475-AC73-4915-8777-E0E6DFD638AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25417475-AC73-4915-8777-E0E6DFD638AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399478FA-2050-4EA7-877A-46F898AF0AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399478FA-2050-4EA7-877A-46F898AF0AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399478FA-2050-4EA7-877A-46F898AF0AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399478FA-2050-4EA7-877A-46F898AF0AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F546C7-56B5-45B4-B545-F8DC14B720FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F546C7-56B5-45B4-B545-F8DC14B720FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F546C7-56B5-45B4-B545-F8DC14B720FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F546C7-56B5-45B4-B545-F8DC14B720FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF0750F-DD17-4473-A97B-26663F047E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF0750F-DD17-4473-A97B-26663F047E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF0750F-DD17-4473-A97B-26663F047E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF0750F-DD17-4473-A97B-26663F047E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A9CD3A-22A5-4323-9695-E368DE155AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A9CD3A-22A5-4323-9695-E368DE155AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A9CD3A-22A5-4323-9695-E368DE155AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A9CD3A-22A5-4323-9695-E368DE155AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DCE6737-4203-46F0-B38C-7F45BE2B8410}
+	EndGlobalSection
+EndGlobal
