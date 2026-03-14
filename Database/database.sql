@@ -1,14 +1,14 @@
--- Bash-Command for creating the databse:
--- docker run -d --rm --name swen1mtcg -e POSTGRES_USER=if23b013 -e POSTGRES_PASSWORD=postgres -p 5432:5432 -v pgdata:/var/lib/postgresql/data postgres
+-- Bash-Command for creating the container:
+-- docker run -d --rm --name cardgame -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -v pgdata:/var/lib/postgresql/data postgres
 
 -- Bash-Command for connecting to the database:
--- docker exec -it swen1mtcg psql -U if23b013
+-- docker exec -it cardgame psql -U postgres
 
 -- Bash-Command for creating the database:
--- CREATE DATABASE swen1mtcg;
+-- CREATE DATABASE cardgame;
 
--- Move into the database swen1mtcg:
--- \c swen1mtcg
+-- Move into the database cardgame:
+-- \c cardgame
 
 -- Execute script:
 

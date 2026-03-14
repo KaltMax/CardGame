@@ -9,7 +9,7 @@ namespace MonsterTradingCardsGame.API
     {
         static void Main(string[] args)
         {
-            const string connectionString = "Host=localhost;Port=5432;Username=max;Password=postgres;Database=cardgame";
+            const string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=postgres;Database=cardgame";
 
             // Repositories
             var gameRepository = new GameRepository(connectionString);
